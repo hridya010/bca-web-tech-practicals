@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology Practical Assignments</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; color: #333; }
+        .question-box { border: 2px solid #0056b3; border-radius: 8px; margin-bottom: 40px; padding: 20px; background-color: #f9fbfd; }
+        h1, h2 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 8px; }
+        .que-title { background-color: #eef4fb; padding: 10px; border-left: 4px solid #0056b3; font-weight: bold; margin-bottom: 15px; }
+        .explanation { background-color: #fff; padding: 12px; border: 1px solid #ddd; margin-top: 15px; border-radius: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .flex-layout { display: flex; border: 1px solid #ccc; background-color: #fff; }
+        nav { width: 200px; background-color: #f4f4f4; padding: 15px; border-right: 1px solid #ccc; }
+        main { padding: 15px; flex-grow: 1; }
+    </style>
+</head>
+<body>
+
+    <h1>Web Technology Practical Submissions</h1>
+
+    <!-- QUESTION 4 -->
+    <div class="question-box">
+        <div class="que-title">
+            Q4. Image Gallery with Accessible Descriptions<br>
+            Question: Create a small HTML image gallery for a college event. Each image must have meaningful alternative text and a caption where appropriate. Explain how image size and accessibility affect user experience.
+        </div>
+
+        <h2>Output Preview:</h2>
+        <h1>College Event Image Gallery</h1>
+        
+        <figure>
+            <img src="welcome.jpg" alt="Students attending the college welcome event" width="300">
+            <figcaption>Students attending the college welcome event.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="dance.jpg" alt="Students performing a dance on stage" width="300">
+            <figcaption>Cultural Dance Performance.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="seminar.jpg" alt="Speaker addressing students during a seminar" width="300">
+            <figcaption>Guest speaker addressing students.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="group.jpg" alt="Students and teachers posing together" width="300">
+            <figcaption>Students and teachers after the event.</figcaption>
+        </figure>
+
+        <div class="explanation">
+            <h3>Importance of alt attribute:</h3>
+            <ul>
+                <li>Provides text description if image fails to load.</li>
+                <li>Used by screen readers for visually impaired users.</li>
+                <li>Improves website accessibility and SEO.</li>
+            </ul>
+            <h3>Importance of Image Size:</h3>
+            <p>Large images increase webpage load time. Proper resizing and compression speed up website performance and user experience.</p>
+        </div>
+    </div>
+
+    <!-- QUESTION 5 -->
+    <div class="question-box">
+        <div class="que-title">
+            Q5. Build a Department Navigation Page<br>
+            Question: Create an HTML page containing a professional navigation menu for Home, About, Courses, Faculty, Labs, Assignments, Notices, Gallery, and Contact. Use appropriate hyperlinks and explain internal vs external links.
+        </div>
+
+        <h2>Output Preview:</h2>
+        <header>
+            <h1>BCA Department</h1>
+            <nav>
+                <a href="index.html">Home</a> | 
+                <a href="about.html">About</a> | 
+                <a href="courses.html">Courses</a> | 
+                <a href="faculty.html">Faculty</a> | 
+                <a href="labs.html">Labs</a> | 
+                <a href="assignments.html">Assignments</a> | 
+                <a href="notices.html">Notices</a> | 
+                <a href="gallery.html">Gallery</a> | 
+                <a href="contact.html">Contact</a> | 
+                <a href="https://www.google.com" target="_blank">Google</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Welcome to the BCA Department</h2>
+            <p>Welcome to the official webpage of the Bachelor of Computer Applications Department.</p>
+        </main>
+        <footer>
+            <p>&copy; 2026 BCA Department</p>
+        </footer>
+
+        <div class="explanation">
+            <h3>Internal vs External Links:</h3>
+            <ul>
+                <li><strong>Internal Links:</strong> Links pointing to pages within the same website (e.g., <code>href="faculty.html"</code>).</li>
+                <li><strong>External Links:</strong> Links that take users to another website outside (e.g., <code>href="https://www.google.com"</code>).</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- QUESTION 6 -->
+    <div class="question-box">
+        <div class="que-title">
+            Q6. HTML5 Semantic Department Page<br>
+            Question: Design the structure of a department webpage using header, nav, main, section, article, aside, and footer. Explain the purpose of each semantic element and why semantic structure is better than using generic containers everywhere.
+        </div>
+
+        <h2>Output Preview:</h2>
+        <header>
+            <h1>BCA Department</h1>
+            <nav>
+                <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Courses</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section>
+                <h3>About Department</h3>
+                <p>The BCA Department provides education in computer applications and information technology.</p>
+            </section>
+
+            <article>
+                <h3>Latest News</h3>
+                <p>The Department is organizing a web development workshop for students.</p>
+            </article>
+
+            <aside>
+                <h3>Important Links</h3>
+                <ul>
+                    <li>Student Portal</li>
+                    <li>Notice Board</li>
+                </ul>
+            </aside>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 BCA Department</p>
+        </footer>
+
+        <div class="explanation">
+            <h3>Purpose of Semantic Elements:</h3>
+            <table>
+                <tr><th>Element</th><th>Purpose</th></tr>
+                <tr><td><code>&lt;header&gt;</code></td><td>Defines introductory content or navigation header.</td></tr>
+                <tr><td><code>&lt;nav&gt;</code></td><td>Contains navigation links.</td></tr>
+                <tr><td><code>&lt;main&gt;</code></td><td>Contains main unique content of the page.</td></tr>
+                <tr><td><code>&lt;section&gt;</code></td><td>Represents a distinct section of related content.</td></tr>
+                <tr><td><code>&lt;article&gt;</code></td><td>Represents independent self-contained content.</td></tr>
+                <tr><td><code>&lt;aside&gt;</code></td><td>Contains related/secondary content (sidebar).</td></tr>
+                <tr><td><code>&lt;footer&gt;</code></td><td>Contains footer information (copyright, credits).</td></tr>
+            </table>
+            <p><strong>Why Semantic HTML is better:</strong> It improves code readability, SEO ranking, screen reader accessibility, and maintenance.</p>
+        </div>
+    </div>
+
+    <!-- QUESTION 7 -->
+    <div class="question-box">
+        <div class="que-title">
+            Q7. Character Entity Challenge<br>
+            Question: Create an HTML page that displays mathematical symbols, copyright information, quotation marks, angle brackets, and other special characters correctly. Identify the character references used and explain why they are useful.
+        </div>
+
+        <h2>Output Preview:</h2>
+        <h1>HTML Character Entities</h1>
+        <p>Less than: &lt;</p>
+        <p>Greater than: &gt;</p>
+        <p>Ampersand: &amp;</p>
+        <p>Copyright: &copy;</p>
+        <p>Registered trademark: &reg;</p>
+        <p>Quotation mark: &quot;</p>
+        <p>Non-breaking space: Hello&nbsp;World</p>
+        <p>Euro symbol: &euro;</p>
+        <p>Plus/minus: &plusmn;</p>
+        <p>Multiplication: &times;</p>
+        <p>Division: &divide;</p>
+        <p>Square Root: &radic;</p>
+
+        <div class="explanation">
+            <h3>Why character entities are useful:</h3>
+            <p>Some characters (like <code>&lt;</code> or <code>&gt;</code>) are reserved in HTML. Entities prevent browsers from mistaking text for HTML tags.</p>
+        </div>
+    </div>
+
+    <!-- QUESTION 8 -->
+    <div class="question-box">
+        <div class="que-title">
+            Q8. Frames Old Approach vs Modern Design<br>
+            Question: Explain how traditional frames and framesets were used to divide a webpage and discuss their limitations. Design a modern page structure using HTML and CSS-based layout instead.
+        </div>
+
+        <h2>Output Preview:</h2>
+        <div class="flex-layout">
+            <nav>
+                <strong>Menu</strong><br>
+                Home<br>
+                About<br>
+                Contact
+            </nav>
+            <main>
+                <h2>Welcome</h2>
+                <p>Department Website built using modern CSS Flexbox layout instead of traditional frames.</p>
+            </main>
+        </div>
+
+        <div class="explanation">
+            <h3>Traditional Frames vs Modern Layout:</h3>
+            <p>Traditional frames (<code>&lt;frameset&gt;</code>) divided a browser window into separate HTML documents. However, they had major limitations in bookmarking, SEO, printing, and responsiveness.</p>
+            <p>Modern HTML5 with CSS Flexbox/Grid is responsive, mobile-friendly, easy to maintain, and SEO compatible.</p>
+        </div>
+    </div>
+
+</body>
+</html>
