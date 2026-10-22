@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Event Gallery</title>
+</head>
+<body>
+    <h2>College Event Image Gallery</h2>
+    
+    <figure>
+        <img src="https://via.placeholder.com/200" alt="Students sitting in auditorium listening to keynote speaker at Tech Fest 2026">
+        <figcaption>Annual Tech Fest Inauguration Ceremony</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://via.placeholder.com/200" alt="Students receiving trophies on stage during annual sports meet award ceremony">
+        <figcaption>Sports Day Award Ceremony</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://via.placeholder.com/200" alt="Group of students working on laptops together during a 24-hour hackathon">
+        <figcaption>24-Hour Code Hackathon Competition</figcaption>
+    </figure>
+</body>
+</html>
