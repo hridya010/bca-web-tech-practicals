@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BCA Class Timetable</title>
+</head>
+<body>
+    <h2>BCA Class Timetable</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Period 1 (9:00-10:00)</th>
+                <th>Period 2 (10:00-11:00)</th>
+                <th>Period 3 (11:00-12:00)</th>
+                <th>Lunch (12:00-1:00)</th>
+                <th>Period 4 (1:00-3:00)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Web Technology</td>
+                <td>Java Programming</td>
+                <td>Data Structures</td>
+                <td rowspan="5" align="center">L<br>U<br>N<br>C<br>H</td>
+                <td>Web Tech Lab</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Database Systems</td>
+                <td>Software Eng.</td>
+                <td>Mathematics</td>
+                <td>Java Lab</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Web Technology</td>
+                <td>Java Programming</td>
+                <td>Data Structures</td>
+                <td>DS Lab</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Database Systems</td>
+                <td>Software Eng.</td>
+                <td>Mathematics</td>
+                <td>Library / Project</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2" align="center">Seminar / Workshop</td>
+                <td>Web Technology</td>
+                <td>Sports / Extra-Curricular</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
