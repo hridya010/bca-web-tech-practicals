@@ -1,0 +1,159 @@
+que 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+</head>
+<body>
+    <h1>Student Profile</h1>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am a BCA student passionate about Web Technology and software development.</p>
+    </section>
+
+    <section>
+        <h2>Profile Picture</h2>
+        <img src="https://via.placeholder.com/150" alt="Student Profile Picture">
+    </section>
+
+    <section>
+        <h2>Education Details</h2>
+        <ul>
+            <li><strong>Degree:</strong> Bachelor of Computer Applications (BCA)</li>
+            <li><strong>Year:</strong> 2nd Year</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills and Hobbies</h2>
+        <p>HTML, Java, Cooking</p>
+    </section>
+
+    <section>
+        <h2>Useful Links</h2>
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </section>
+
+    <hr>
+    <footer>
+        <p>My Profile</p>
+    </footer>
+</body>
+</html>
+
+
+que 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BCA Class Timetable</title>
+</head>
+<body>
+    <h2>BCA Class Timetable</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Period 1 (9:00-10:00)</th>
+                <th>Period 2 (10:00-11:00)</th>
+                <th>Period 3 (11:00-12:00)</th>
+                <th>Lunch (12:00-1:00)</th>
+                <th>Period 4 (1:00-3:00)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Web Technology</td>
+                <td>Java Programming</td>
+                <td>Data Structures</td>
+                <td rowspan="5" align="center">L<br>U<br>N<br>C<br>H</td>
+                <td>Web Tech Lab</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Database Systems</td>
+                <td>Software Eng.</td>
+                <td>Mathematics</td>
+                <td>Java Lab</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Web Technology</td>
+                <td>Java Programming</td>
+                <td>Data Structures</td>
+                <td>DS Lab</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Database Systems</td>
+                <td>Software Eng.</td>
+                <td>Mathematics</td>
+                <td>Library / Project</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2" align="center">Seminar / Workshop</td>
+                <td>Web Technology</td>
+                <td>Sports / Extra-Curricular</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+que 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="BCA">BCA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MCA">MCA</option>
+        </select><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="coding" name="hobbies" value="Coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <label for="photo">Upload Photo/Document:</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
