@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>My Profile</h1>
+<img src="me.jpg" width="100">
+<h2>Introduction</h2>
+<p>My name is Arshiya. I am a BCA student.</p>
+<h2>Education</h2>
+<p>Pursuing BCA</p>
+<h2>Skills and Hobbies</h2>
+<p>HTML, Java, Cooking</p>
+<a href="https://www.google.com">Google</a>
+<footer>My Profile</footer>
+</body>
+</html>
