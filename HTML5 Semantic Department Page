@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department Webpage (Semantic Structure)</title>
+</head>
+<body>
+
+    <header>
+        <h1>Department of Computer Applications</h1>
+        <p>Khwaja Moinuddin Chishti Language University</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> | 
+        <a href="#">Notices</a> | 
+        <a href="#">Syllabus</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Department News</h2>
+            <article>
+                <h3>Web Tech Lab Submission</h3>
+                <p>All BCA students must upload their practical code files to their GitHub repository before the deadline.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">University Timetable</a></li>
+                <li><a href="#">Exam Schedule</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Department of Computer Applications. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
