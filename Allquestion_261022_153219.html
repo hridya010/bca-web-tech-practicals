@@ -1,0 +1,364 @@
+
+
+
+
+
+
+
+
+Que 1
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile</title>
+</head>
+<body>
+<h1>Student Profile</h1>
+
+<section>
+<h2>About Me</h2>
+<p>Hello! I am a BCA student passionate about Web Technology and software development.</p>
+</section>
+
+<section>
+<h2>Profile Picture</h2>
+<img src="https://via.placeholder.com/150" alt="Student Profile Picture">
+</section>
+
+<section>
+<h2>Education Details</h2>
+<ul>
+<li><strong>Degree:</strong> Bachelor of Computer Applications (BCA)</li>
+<li><strong>Year:</strong> 2nd Year</li>
+</ul>
+</section>
+
+<section>
+<h2>Skills and Hobbies</h2>
+<p>HTML, Java, Cooking</p>
+</section>
+
+<section>
+<h2>Useful Links</h2>
+<a href="https://www.google.com" target="_blank">Google</a>
+</section>
+
+<hr>
+<footer>
+<p>My Profile</p>
+</footer>
+</body>
+</html>
+
+Que 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BCA Class Timetable</title>
+</head>
+<body>
+<h2>BCA Class Timetable</h2>
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>Day</th>
+<th>Period 1 (9:00-10:00)</th>
+<th>Period 2 (10:00-11:00)</th>
+<th>Period 3 (11:00-12:00)</th>
+<th>Lunch (12:00-1:00)</th>
+<th>Period 4 (1:00-3:00)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monday</td>
+<td>Web Technology</td>
+<td>Java Programming</td>
+<td>Data Structures</td>
+<td rowspan="5" align="center">L<br>U<br>N<br>C<br>H</td>
+<td>Web Tech Lab</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>Database Systems</td>
+<td>Software Eng.</td>
+<td>Mathematics</td>
+<td>Java Lab</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>Web Technology</td>
+<td>Java Programming</td>
+<td>Data Structures</td>
+<td>DS Lab</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>Database Systems</td>
+<td>Software Eng.</td>
+<td>Mathematics</td>
+<td>Library / Project</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td colspan="2" align="center">Seminar / Workshop</td>
+<td>Web Technology</td>
+<td>Sports / Extra-Curricular</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+Que 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Form</title>
+</head>
+<body>
+<h2>Student Registration Form</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+<label for="fullname">Full Name:</label><br>
+<input type="text" id="fullname" name="fullname" required><br><br>
+
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" required><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label><br><br>
+
+<label for="course">Course:</label><br>
+<select id="course" name="course">
+<option value="BCA">BCA</option>
+<option value="B.Tech">B.Tech</option>
+<option value="MCA">MCA</option>
+</select><br><br>
+
+<label for="dob">Date of Birth:</label><br>
+<input type="date" id="dob" name="dob"><br><br>
+
+<label>Hobbies:</label><br>
+<input type="checkbox" id="coding" name="hobbies" value="Coding">
+<label for="coding">Coding</label>
+<input type="checkbox" id="sports" name="hobbies" value="Sports">
+<label for="sports">Sports</label><br><br>
+
+<label for="address">Address:</label><br>
+<textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+<label for="photo">Upload Photo/Document:</label><br>
+<input type="file" id="photo" name="photo"><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
+
+Que 4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>College Event Gallery</title>
+</head>
+<body>
+<h2>College Event Image Gallery</h2>
+
+<figure>
+<img src="https://via.placeholder.com/200" alt="Students sitting in auditorium listening to keynote speaker at Tech Fest 2026">
+<figcaption>Annual Tech Fest Inauguration Ceremony</figcaption>
+</figure>
+
+<figure>
+<img src="https://via.placeholder.com/200" alt="Students receiving trophies on stage during annual sports meet award ceremony">
+<figcaption>Sports Day Award Ceremony</figcaption>
+</figure>
+
+<figure>
+<img src="https://via.placeholder.com/200" alt="Group of students working on laptops together during a 24-hour hackathon">
+<figcaption>24-Hour Code Hackathon Competition</figcaption>
+</figure>
+</body>
+</html>
+
+Que 5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Department Navigation Page</title>
+</head>
+<body>
+<h1>Computer Science Department</h1>
+
+<!-- Navigation Menu -->
+<nav>
+<a href="#home">Home</a> |
+<a href="#about">About</a> |
+<a href="#courses">Courses</a> |
+<a href="#faculty">Faculty</a> |
+<a href="#assignments">Assignments</a> |
+<a href="https://www.google.com" target="_blank">External Portal</a>
+</nav>
+<hr>
+
+<section id="home">
+<h2>Home</h2>
+<p>Welcome to the Computer Science & Applications Department.</p>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Providing quality IT education and technical training.</p>
+</section>
+
+<section id="courses">
+<h2>Courses</h2>
+<p>BCA, MCA, and Diploma Courses.</p>
+</section>
+
+<section id="faculty">
+<h2>Faculty</h2>
+<p>Experienced professors and instructors.</p>
+</section>
+
+<section id="assignments">
+<h2>Assignments</h2>
+<p>Check back regularly for practical submission deadlines.</p>
+</section>
+</body>
+</html>
+Que 6
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Department Webpage (Semantic Structure)</title>
+</head>
+<body>
+
+<header>
+<h1>Department of Computer Applications</h1>
+<p>Khwaja Moinuddin Chishti Language University</p>
+</header>
+
+<nav>
+<a href="#">Home</a> |
+<a href="#">Notices</a> |
+<a href="#">Syllabus</a>
+</nav>
+
+<main>
+<section>
+<h2>Department News</h2>
+<article>
+<h3>Web Tech Lab Submission</h3>
+<p>All BCA students must upload their practical code files to their GitHub repository before the deadline.</p>
+</article>
+</section>
+
+<aside>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#">University Timetable</a></li>
+<li><a href="#">Exam Schedule</a></li>
+</ul>
+</aside>
+</main>
+
+<footer>
+<p>© 2026 Department of Computer Applications. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
+Que 7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Character Entities Example</title>
+</head>
+<body>
+<h2>HTML Special Characters & Entities</h2>
+
+<p><strong>Mathematical Symbols:</strong></p>
+<ul>
+<li>5 < 10 (Less than: <code>&lt;</code>)</li>
+<li>10 > 5 (Greater than: <code>&gt;</code>)</li>
+<li>5 ± 2 (Plus-minus: <code>&plusmn;</code>)</li>
+<li>∑ (Summation: <code>&sum;</code>)</li>
+<li>∞ (Infinity: <code>&infin;</code>)</li>
+</ul>
+
+<p><strong>Quotations & Copyright:</strong></p>
+<ul>
+<li>"HTML5 is awesome" (Double quotes: <code>&quot;</code>)</li>
+<li>Copyright © 2026 My Website (Copyright symbol: <code>&copy;</code>)</li>
+<li>Registered Trademark ® (Registered: <code>&reg;</code>)</li>
+</ul>
+</body>
+</html>
+
+
+Que 8
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Modern Layout without Frames</title>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+<h2>Modern Web Page Design</h2>
+</header>
+
+<!-- Top Navigation -->
+<nav>
+<a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a>
+</nav>
+
+<!-- Main Content Area -->
+<main>
+<section>
+<h3>Main Content Section</h3>
+<p>Traditional framesets had usability and SEO issues. Modern web layout uses CSS and HTML5 semantic structural components instead.</p>
+</section>
+</main>
+
+<!-- Sidebar Section -->
+<aside>
+<h4>Sidebar Info</h4>
+<p>Additional resources and navigation links go here.</p>
+</aside>
+
+<!-- Footer Section -->
+<footer>
+<p>Footer Content © 2026</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
