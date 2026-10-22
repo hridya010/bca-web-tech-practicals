@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+</head>
+<body>
+    <h1>Student Profile</h1>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am a BCA student passionate about Web Technology and software development.</p>
+    </section>
+
+    <section>
+        <h2>Profile Picture</h2>
+        <img src="https://via.placeholder.com/150" alt="Student Profile Picture">
+    </section>
+
+    <section>
+        <h2>Education Details</h2>
+        <ul>
+            <li><strong>Degree:</strong> Bachelor of Computer Applications (BCA)</li>
+            <li><strong>Year:</strong> 2nd Year</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Skills and Hobbies</h2>
+        <p>HTML, Java, Cooking</p>
+    </section>
+
+    <section>
+        <h2>Useful Links</h2>
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </section>
+
+    <hr>
+    <footer>
+        <p>My Profile</p>
+    </footer>
+</body>
+</html>
