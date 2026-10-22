@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department Navigation Page</title>
+</head>
+<body>
+    <h1>Computer Science Department</h1>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#faculty">Faculty</a> |
+        <a href="#assignments">Assignments</a> |
+        <a href="https://www.google.com" target="_blank">External Portal</a>
+    </nav>
+    <hr>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to the Computer Science & Applications Department.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Providing quality IT education and technical training.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Courses</h2>
+        <p>BCA, MCA, and Diploma Courses.</p>
+    </section>
+
+    <section id="faculty">
+        <h2>Faculty</h2>
+        <p>Experienced professors and instructors.</p>
+    </section>
+
+    <section id="assignments">
+        <h2>Assignments</h2>
+        <p>Check back regularly for practical submission deadlines.</p>
+    </section>
+</body>
+</html>
