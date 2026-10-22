@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modern Layout without Frames</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h2>Modern Web Page Design</h2>
+    </header>
+
+    <!-- Top Navigation -->
+    <nav>
+        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <section>
+            <h3>Main Content Section</h3>
+            <p>Traditional framesets had usability and SEO issues. Modern web layout uses CSS and HTML5 semantic structural components instead.</p>
+        </section>
+    </main>
+
+    <!-- Sidebar Section -->
+    <aside>
+        <h4>Sidebar Info</h4>
+        <p>Additional resources and navigation links go here.</p>
+    </aside>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Footer Content &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
