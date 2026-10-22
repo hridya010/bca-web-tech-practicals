@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Character Entities Example</title>
+</head>
+<body>
+    <h2>HTML Special Characters & Entities</h2>
+
+    <p><strong>Mathematical Symbols:</strong></p>
+    <ul>
+        <li>5 &lt; 10 (Less than: <code>&amp;lt;</code>)</li>
+        <li>10 &gt; 5 (Greater than: <code>&amp;gt;</code>)</li>
+        <li>5 &plusmn; 2 (Plus-minus: <code>&amp;plusmn;</code>)</li>
+        <li>&sum; (Summation: <code>&amp;sum;</code>)</li>
+        <li>&infin; (Infinity: <code>&amp;infin;</code>)</li>
+    </ul>
+
+    <p><strong>Quotations & Copyright:</strong></p>
+    <ul>
+        <li>&quot;HTML5 is awesome&quot; (Double quotes: <code>&amp;quot;</code>)</li>
+        <li>Copyright &copy; 2026 My Website (Copyright symbol: <code>&amp;copy;</code>)</li>
+        <li>Registered Trademark &reg; (Registered: <code>&amp;reg;</code>)</li>
+    </ul>
+</body>
+</html>
